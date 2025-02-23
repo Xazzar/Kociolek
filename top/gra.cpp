@@ -28,13 +28,13 @@ bool timeout(int& a, int s)
     // Czekamy
     if (future.wait_for(chrono::seconds(s)) == future_status::ready)
     {
-        // Jeœli w wyznaczonym czasie
+        // Jeï¿½li w wyznaczonym czasie
         a = future.get();
         return true;
     }
     else
     {
-        // Jeœli przekroczono limit czasu
+        // Jeï¿½li przekroczono limit czasu
         return false;
     }
 }
@@ -76,7 +76,7 @@ void gra(int gracz)
         }
         else
         {
-            // Poziom poza zakresem 1–5
+            // Poziom poza zakresem 1ï¿½5
             zakres = 10;
         }
 
@@ -122,6 +122,7 @@ void gra(int gracz)
     cout << "  Komputer 12 " << "%\n";
     cout << "  Komputer 23 " << "%\n";
     cout << "  Komputer 13 " << "%\n";
+    cout << "  Komputer 55 " << "%\n";
     cout << "  " << endl;
 
 }
