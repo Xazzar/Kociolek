@@ -118,6 +118,7 @@ void gra(int gracz)
     cout << "  Procent poprawnych odpowiedzi: " << procentPoprawnych << "%\n";
     cout << "  Komputer 2 " << "%\n";
     cout << "  Komputer 1 " << "%\n";
+    cout << "  Komputer 12 " << "%\n";
     cout << "  " << endl;
 
 }
