@@ -123,6 +123,7 @@ void gra(int gracz)
     cout << "  Komputer 23 " << "%\n";
     cout << "  Komputer 13 " << "%\n";
     cout << "  Komputer 55 " << "%\n";
+    cout << "  Komputer 71w " << "%\n";
     cout << "  " << endl;
 
 }
