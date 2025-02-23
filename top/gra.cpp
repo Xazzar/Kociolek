@@ -116,6 +116,7 @@ void gra(int gracz)
     clear_screen();
     cout << "\n  Poprawnych odpowiedzi: " << poprawneOdpowiedzi << "/" << LICZBA_PYTAN << endl;
     cout << "  Procent poprawnych odpowiedzi: " << procentPoprawnych << "%\n";
+    cout << "  Komputer 2 " << "%\n";
     cout << "  " << endl;
 
 }
